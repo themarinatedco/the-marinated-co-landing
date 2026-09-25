@@ -87,7 +87,8 @@
   }
   .hero h1{
     font-size:38px;line-height:1.12;letter-spacing:-0.01em;
-    max-width:11ch;
+    max-width:11ch;margin-left:auto;margin-right:auto;
+    text-align:center;
     text-shadow:0 2px 18px rgba(0,0,0,0.45);
   }
   @media (min-width:600px){.hero h1{font-size:52px;}}
@@ -96,21 +97,22 @@
     margin-top:18px;
   }
   .hero-support{
-    font-size:17px;color:var(--cream-dim);margin-top:16px;max-width:38ch;
+    font-size:17px;color:var(--cream-dim);margin:16px auto 0;max-width:38ch;
+    text-align:center;
   }
   .price-row{
-    display:flex;align-items:baseline;justify-content:center; gap:8px;margin-top:30px;
+    display:flex;align-items:baseline;justify-content:center;gap:8px;margin-top:30px;
   }
   .price-row .amt{font-family:'Fraunces',serif;font-size:30px;color:var(--cream);}
   .price-row .lbl{font-size:14px;color:var(--cream-dim);}
-  .hero-cta{margin-top:26px;max-width:420px;}
+  .hero-cta{margin:26px auto 0;max-width:420px;}
   .hero-note{font-size:13px;color:var(--cream-dim);margin-top:14px;}
 
   /* Section heading */
   .kicker{
     font-size:14px;color:var(--gold);margin-bottom:10px;
   }
-  .sec-head{max-width:34ch;margin-bottom:44px;}
+  .sec-head{max-width:34ch;margin:0 auto 44px;text-align:center;}
   .sec-head h2{font-size:30px;line-height:1.2;}
   @media (min-width:768px){.sec-head h2{font-size:36px;}}
 
@@ -162,9 +164,9 @@
   .step h3{font-size:18px;font-weight:600;font-family:'Inter',sans-serif;}
 
   /* Local delivery */
-  .delivery{text-align:left;}
-  .delivery .sec-head{max-width:44ch;margin-bottom:26px;}
-  .delivery p.body{color:var(--cream-dim);font-size:16px;max-width:48ch;margin-bottom:30px;}
+  .delivery{text-align:center;}
+  .delivery .sec-head{max-width:44ch;margin:0 auto 26px;text-align:center;}
+  .delivery p.body{color:var(--cream-dim);font-size:16px;max-width:48ch;margin:0 auto 30px;}
 
   /* Final CTA */
   .final{
@@ -178,10 +180,10 @@
   .final .btn{max-width:340px;margin:0 auto;font-size:17px;}
 
   /* Footer */
-  footer{padding:40px 0 56px;}
+  footer{padding:40px 0 56px;text-align:center;}
   footer .brandmark{margin-bottom:8px;}
   footer p{color:var(--cream-dim);font-size:14px;}
-  .foot-links{margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;}
+  .foot-links{margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;}
   .foot-links a{font-size:14px;color:var(--cream-dim);border-bottom:1px solid var(--line);padding-bottom:2px;}
   .foot-links a:hover{color:var(--gold);border-color:var(--gold);}
 
